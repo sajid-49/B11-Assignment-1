@@ -3,7 +3,39 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #f1f1f3;
+}
+
+/* Shared Style Starts here */
+
+/* Vision-Card Section */
+/* card 1 */
+.vision1-card1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision1-btn1 {
+  background-color: #5490f5;
+}
+/* card 2 */
+.vision1-card2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+.vision1-btn2 {
+  background-color: #09a15c;
+}
+/* card 3 */
+.vision1-card3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+.vision1-btn3 {
+  background-color: #ffc239;
+}
+/* Shared Style Ends here */
+
 /* Header Section Starts here */
 
 /* Nav Section */
@@ -73,5 +105,138 @@
 }
 
 /* Header Section Ends here */
+
+/* Main Section Starts here */
+
+/* Pillar Section */
+
+.pillar-section {
+  width: 1280px;
+  height: 324px;
+  margin: 80px auto;
+}
+
+.pillar-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.pillar-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.pillar-card {
+  padding: 24px;
+  background-color: #ffffff;
+  width: 302px;
+  height: 244px;
+  border-radius: 16px;
+}
+
+.pillar-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.pillar-card-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Section */
+
+.vision-section {
+  width: 1280px;
+  height: 765px;
+  margin: 80px auto;
+}
+
+.vision1-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.vision1-description {
+  font-size: 16px;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+.vision1-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.vision1-card {
+  width: 410px;
+  height: 325px;
+  border: none;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.vision1-card-title {
+  color: #0e0e0e;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.vision1-card-description {
+  font-size: 16px;
+  color: #0e0e0e;
+  margin: 24px 0;
+}
+
+.vision1-btn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.dryunus {
+  width: 1280px;
+  height: 256px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  /* background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat; */
+  padding: 24px;
+}
+
+.dryunus-description {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.dryunus-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 5px;
+}
+.dryunus-sub-title {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+}
+/* Main Section Ends here */
 
 /* primary color #F5F5F5 */
